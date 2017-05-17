@@ -31,8 +31,8 @@
 
   self.pickerView.font = [UIFont fontWithName:@"Avenir" size:32];
   self.pickerView.highlightedFont = [UIFont fontWithName:@"Avenir" size:36];
-  self.textColor = self.textColor ?: [UIColor colorWithRed:123.0/255.0 green:255.0/255.0 blue:199.0/255.0 alpha:0.7];
-	self.highlightedTextColor = self.highlightedTextColor ?: [UIColor colorWithRed:123.0/255.0 green:255.0/255.0 blue:199.0/255.0 alpha:1.0];
+  self.pickerView.textColor = [UIColor colorWithRed:123.0/255.0 green:255.0/255.0 blue:199.0/255.0 alpha:0.7];
+	self.pickerView.highlightedTextColor = [UIColor colorWithRed:123.0/255.0 green:255.0/255.0 blue:199.0/255.0 alpha:1.0];
   self.pickerView.interitemSpacing = 6.0;
   self.pickerView.fisheyeFactor = 0.001;
   self.pickerView.pickerViewStyle = AKPickerViewStyle3D;

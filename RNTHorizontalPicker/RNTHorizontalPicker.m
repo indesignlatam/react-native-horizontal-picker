@@ -88,7 +88,7 @@
 - (void)setSelectedIndex:(NSInteger)selectedIndex
 {
   _selectedIndex = selectedIndex;
-  [_pickerView reloadData];
+  // [_pickerView reloadData]; // This makes the picker to flicker, seems to not be necessary
   [_pickerView selectItem:_selectedIndex animated:true];
 }
 
